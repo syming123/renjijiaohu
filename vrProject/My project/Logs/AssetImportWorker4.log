@@ -1,0 +1,495 @@
+Using pre-set license
+Built from 'HEAD' branch; Version is '2021.3.12f1c2 (ffeb050254a0) revision 16771845'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 15787 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityHub_Install_Location\2021.3.12f1c2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/vrProject/My project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+65317
+Successfully changed project path to: D:/vrProject/My project
+D:/vrProject/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 103.75 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.83 ms.
+Initialize engine version: 2021.3.12f1c2 (ffeb050254a0)
+[Subsystems] Discovering subsystems at path D:/UnityHub_Install_Location/2021.3.12f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/vrProject/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'D:/UnityHub_Install_Location/2021.3.12f1c2/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHub_Install_Location/2021.3.12f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHub_Install_Location/2021.3.12f1c2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityHub_Install_Location/2021.3.12f1c2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/UnityHub_Install_Location/2021.3.12f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003923 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 90.75 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.625 seconds
+Domain Reload Profiling:
+	ReloadAssembly (626ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (454ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016290 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\vrProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\vrProject\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 97.43 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\vrProject\My project\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\vrProject\My project\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c9d3ffd4b98649ee9989e1908eaca019>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c9d3ffd4b98649ee9989e1908eaca019>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c9d3ffd4b98649ee9989e1908eaca019>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <ff644ad2afd246129ad2e1e8da5c9aed>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1310ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 4143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (89.5 KB). Loaded Objects now: 4606.
+Memory consumption went from 169.8 MB to 169.7 MB.
+Total: 4.432300 ms (FindLiveObjects: 0.645000 ms CreateObjectMapping: 0.348300 ms MarkObjects: 3.303600 ms  DeleteObjects: 0.133100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 497910.500705 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/VFX
+  artifactKey: Guid(a2d0feabcabfcdd47b8a9c1b9067d5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/VFX using Guid(a2d0feabcabfcdd47b8a9c1b9067d5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6159066b46cf4b0422ae3634f6518ecc') in 0.008328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.507802 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/VFX/Candle_Fire_FX_02.prefab
+  artifactKey: Guid(3d0e1c5473aa4ab39e49c88bd3d0b08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/VFX/Candle_Fire_FX_02.prefab using Guid(3d0e1c5473aa4ab39e49c88bd3d0b08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f32f6db4d3fc40582163a837a37897b') in 0.097797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.058128 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/VFX/Light Presets
+  artifactKey: Guid(7e1045d36f2c7bd4c90792d84a1e334f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/VFX/Light Presets using Guid(7e1045d36f2c7bd4c90792d84a1e334f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24800df9577b05e7197e86f78f19802b') in 0.001854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036080 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/VFX/Light Presets/Candle Light 01.prefab
+  artifactKey: Guid(09de7dec60873a04d948f87c24bc8c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/VFX/Light Presets/Candle Light 01.prefab using Guid(09de7dec60873a04d948f87c24bc8c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de22b9fae78b268e534d1153709f93cc') in 0.003572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.572237 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture
+  artifactKey: Guid(8b89d50e424940a4b7822bfd95705d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture using Guid(8b89d50e424940a4b7822bfd95705d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c21f52828abc5ae8ee61428762b8792') in 0.002083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055936 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Bench_01.prefab
+  artifactKey: Guid(37c3c9bac33a4b9dafcace5d47746041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Bench_01.prefab using Guid(37c3c9bac33a4b9dafcace5d47746041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba02d755ca44e2e4482a4171aba3c94') in 0.005058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_02.prefab
+  artifactKey: Guid(1190fd8687304efb8e8af180203c5fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_02.prefab using Guid(1190fd8687304efb8e8af180203c5fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a87343bf6a71a00e734d4670bc2191') in 0.004312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_03.prefab
+  artifactKey: Guid(2c3e3f4479824bceb3d0cece5ec5697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_03.prefab using Guid(2c3e3f4479824bceb3d0cece5ec5697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff9562748e51b46168dcd35979df255') in 0.004622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Shelf_01.prefab
+  artifactKey: Guid(0204815ed6d44124b96dba2ddd5ec69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Shelf_01.prefab using Guid(0204815ed6d44124b96dba2ddd5ec69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce6c9c8f1214ac1450b9301c6672e1f') in 0.004696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Big_Preset_01.prefab
+  artifactKey: Guid(662dc20108624032b4ce7f54157a9ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Big_Preset_01.prefab using Guid(662dc20108624032b4ce7f54157a9ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7fe4415c6c820ac7f68f8042dacea8') in 0.004526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Shelf_Preset_02.prefab
+  artifactKey: Guid(517e2520ef6b4a098fa2b4d0d98d7a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Shelf_Preset_02.prefab using Guid(517e2520ef6b4a098fa2b4d0d98d7a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd38092161129f73b55e43b14c728375') in 0.004006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Shelf_Preset_01.prefab
+  artifactKey: Guid(b1dddcd355c246b6b4f0139d24727cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Shelf_Preset_01.prefab using Guid(b1dddcd355c246b6b4f0139d24727cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56066c81445ad2a5b6f417fb796cb13') in 0.004929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_09.prefab
+  artifactKey: Guid(7084b5a21de241c98d3a4063be79c075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_09.prefab using Guid(7084b5a21de241c98d3a4063be79c075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63ee80d5ec9ceea7a7693a1c2d197bd') in 0.004759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Rostrum_01.prefab
+  artifactKey: Guid(f8eaf7aab1f841ffa2a822ddbbe33ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Rostrum_01.prefab using Guid(f8eaf7aab1f841ffa2a822ddbbe33ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e2a3879991422c6c5f15b11322f431') in 0.004432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.266459 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_01.prefab
+  artifactKey: Guid(131a112cf67c4e98af44b350b210ef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_01.prefab using Guid(131a112cf67c4e98af44b350b210ef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d47f5d7454d29d6aba0a6f2344cd784') in 0.004813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_03.prefab
+  artifactKey: Guid(cab518aa9b9d42f3813edffa01162bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_03.prefab using Guid(cab518aa9b9d42f3813edffa01162bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cb9a11bbdca33401d89db93eacc9c5') in 0.004403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_04.prefab
+  artifactKey: Guid(00f3d6cec2fd439dad128145ad2a3048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_04.prefab using Guid(00f3d6cec2fd439dad128145ad2a3048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1165e70af49f437391730847d50895a9') in 0.004758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Inkpot_01.prefab
+  artifactKey: Guid(747dab04a1084dd1805bd446e606e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Inkpot_01.prefab using Guid(747dab04a1084dd1805bd446e606e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5910177218653d0886bc6bc0e7ed38') in 0.003730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_02.prefab
+  artifactKey: Guid(1d040883b4c941fa9ab5cfdcce009a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_02.prefab using Guid(1d040883b4c941fa9ab5cfdcce009a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a9e1c7d30b2df941c7aedf70cdccfd') in 0.004319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_02.prefab
+  artifactKey: Guid(36ac7bb4677d46aa8368525fc9a82bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_02.prefab using Guid(36ac7bb4677d46aa8368525fc9a82bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4c3de113be7715e246cf782fcbd8a0') in 0.004480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_03.prefab
+  artifactKey: Guid(0ed3201858cd4194bbf2553c8517321b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_03.prefab using Guid(0ed3201858cd4194bbf2553c8517321b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7715c4abbef6190e6c79bb7c6c903271') in 0.004398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_01.prefab
+  artifactKey: Guid(90453fdc09234512bd43221d2b5f5569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store_Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_01.prefab using Guid(90453fdc09234512bd43221d2b5f5569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6dfa0fbcae8fae2fca42474264d8ee') in 0.004116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.599958 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_Preset_01.prefab
+  artifactKey: Guid(86e6f19df467456c98668b86a7963358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_Preset_01.prefab using Guid(86e6f19df467456c98668b86a7963358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5edb73fa99639b38c00f5be8906593') in 0.038534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Scale_01.prefab
+  artifactKey: Guid(710caedd8bff451d82b2ab398533e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Scale_01.prefab using Guid(710caedd8bff451d82b2ab398533e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0661a62c9b0b9158f213a892c4df9c1') in 0.018660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Scroll_01.prefab
+  artifactKey: Guid(b750cae05681454bba80ad81d7252818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Scroll_01.prefab using Guid(b750cae05681454bba80ad81d7252818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4aac5e3f3fcec140312631a252da18') in 0.028946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Stand_01.prefab
+  artifactKey: Guid(3e0ed916ce4c426c887d47337b536aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Stand_01.prefab using Guid(3e0ed916ce4c426c887d47337b536aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b712ffef804b7d20e955ae059b4a3e') in 0.020765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.177112 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Shelf_Preset_04.prefab
+  artifactKey: Guid(d7a5e14202ef45918353047c81112c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Shelf_Preset_04.prefab using Guid(d7a5e14202ef45918353047c81112c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbf98dcd685a14dce53fbfb6c08d11a') in 0.111482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_Preset_05.prefab
+  artifactKey: Guid(ac54d2d6fecb48fe86a84515a8d01eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_Preset_05.prefab using Guid(ac54d2d6fecb48fe86a84515a8d01eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913ab34c55c0945824c1ccc53c1a455b') in 0.056281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_Preset_06.prefab
+  artifactKey: Guid(1fba721680014217bdaceed4f6fe154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_Preset_06.prefab using Guid(1fba721680014217bdaceed4f6fe154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcb1e4c039b1e5f7bc47c808719bdd7') in 0.046908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.297609 seconds.
+  path: Assets/Multistory Dungeons 2/Textures/Materials/Candle_Fire_Material_01.mat
+  artifactKey: Guid(a45f4884a50afbc44bad37be3541ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Textures/Materials/Candle_Fire_Material_01.mat using Guid(a45f4884a50afbc44bad37be3541ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6cc533a17d0b422cbbbeef9131d488') in 0.048930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.255028 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs
+  artifactKey: Guid(a93fba74bf701d74490617ec13402876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs using Guid(a93fba74bf701d74490617ec13402876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497dde58ac406dc94d1639ade3bf4f7f') in 0.001794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.558732 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Barrel_01.prefab
+  artifactKey: Guid(6b5fd7cab1f845b289850db8ab502261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Barrel_01.prefab using Guid(6b5fd7cab1f845b289850db8ab502261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdd44aba2c63b8ed1ccc4dcfec8341a') in 0.255137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candlestick_Floor_02_Lit.prefab
+  artifactKey: Guid(aebf24aa57894961bfe5b60492dd5bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candlestick_Floor_02_Lit.prefab using Guid(aebf24aa57894961bfe5b60492dd5bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348b897897aeba4045bd44cf843acafd') in 0.052795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Jugs_Preset_01.prefab
+  artifactKey: Guid(3c48fffcc1564b28b55bbdf60e5b9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Jugs_Preset_01.prefab using Guid(3c48fffcc1564b28b55bbdf60e5b9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a58af2fa0e01b52354c00d0b5ea9ab8') in 0.022515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candles_04.prefab
+  artifactKey: Guid(4ca27bc633e2469a911874c5d25aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candles_04.prefab using Guid(4ca27bc633e2469a911874c5d25aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51030a3ce469719a86e9aaa9fab2b7c4') in 0.023345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candles_03.prefab
+  artifactKey: Guid(57216b0d7e1f41d396ea9e5bb9117953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candles_03.prefab using Guid(57216b0d7e1f41d396ea9e5bb9117953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1320bfc6813c062fe51b8bbca2473e39') in 0.023281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_04.prefab
+  artifactKey: Guid(0e749be40a6b4f60935cf7e490b57d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_04.prefab using Guid(0e749be40a6b4f60935cf7e490b57d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502eb72ae9d240448b130e40fb628fe1') in 0.023338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_03.prefab
+  artifactKey: Guid(1de99f1c9e134fa8b97f4d761833de57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_03.prefab using Guid(1de99f1c9e134fa8b97f4d761833de57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81927b0bc20b3bbf2d4ad94e6699e619') in 0.028218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_02.prefab
+  artifactKey: Guid(c0ec564d1f2148c99703100107fde91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_02.prefab using Guid(c0ec564d1f2148c99703100107fde91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f806629bc667010539a03804c811df52') in 0.033763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candle_02.prefab
+  artifactKey: Guid(374b0997db81407ca6f741e55d078c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candle_02.prefab using Guid(374b0997db81407ca6f741e55d078c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bede4e01f157a16efa3899e950792f45') in 0.036357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Jugs_Preset_02.prefab
+  artifactKey: Guid(f59e02d325704d6e9f804b133aa7b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Jugs_Preset_02.prefab using Guid(f59e02d325704d6e9f804b133aa7b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96c3df8c0a17292eb66121bed58afb9') in 0.028826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_01.prefab
+  artifactKey: Guid(15fd5903be7b4cd68505a9c33fb0cd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_01.prefab using Guid(15fd5903be7b4cd68505a9c33fb0cd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f673773aef5c5f619f9daa272cb4203') in 0.024534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candle_03.prefab
+  artifactKey: Guid(bd3e98b7af3649949b2bbab0ea7fe8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candle_03.prefab using Guid(bd3e98b7af3649949b2bbab0ea7fe8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8433520982da87e2c66975c873d993a') in 0.021317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Lamp_01.prefab
+  artifactKey: Guid(dfbde792590a4220a339d2b776e63f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Lamp_01.prefab using Guid(dfbde792590a4220a339d2b776e63f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae63e8f2953e6daae9c0af9d1318a5e') in 0.205302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.458602 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Torch_Handheld_01.prefab
+  artifactKey: Guid(28bbda36f51a405f8e8a661d2246404a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Torch_Handheld_01.prefab using Guid(28bbda36f51a405f8e8a661d2246404a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff8a54b2e3d64b0ec337aaf89c9ee8c') in 0.016696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.607087 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Bench_01.prefab
+  artifactKey: Guid(37c3c9bac33a4b9dafcace5d47746041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Bench_01.prefab using Guid(37c3c9bac33a4b9dafcace5d47746041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77268c93c90e37d5ce5f5648cdb3dea4') in 0.267788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Ladder_01.prefab
+  artifactKey: Guid(871313d097424a8da9d90dc4db5a48ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Ladder_01.prefab using Guid(871313d097424a8da9d90dc4db5a48ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba02b410a6f9a95e01b175d65892266') in 0.026560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Rostrum_Preset_01.prefab
+  artifactKey: Guid(663177e7db344bd692306990641ca5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Rostrum_Preset_01.prefab using Guid(663177e7db344bd692306990641ca5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5462edda5a1996706f648aaa06f8f7b3') in 0.062343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Chair_Wooden_01.prefab
+  artifactKey: Guid(28204d4732d744778287ba981af91906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Chair_Wooden_01.prefab using Guid(28204d4732d744778287ba981af91906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fb5edff544158bd78e4bd0e787af4d') in 0.019668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Drawer_01.prefab
+  artifactKey: Guid(d8f3e38cbedc47d88632b646b8e53412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Drawer_01.prefab using Guid(d8f3e38cbedc47d88632b646b8e53412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce6f75859b78377dae2b3094d333316') in 0.048259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Rostrum_01.prefab
+  artifactKey: Guid(f8eaf7aab1f841ffa2a822ddbbe33ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Rostrum_01.prefab using Guid(f8eaf7aab1f841ffa2a822ddbbe33ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb67b87fa567927fcd29877c95ef8c0') in 0.049965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Chair_01.prefab
+  artifactKey: Guid(1efd93450a4746d1bf94bff601cf447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Furniture/Chair_01.prefab using Guid(1efd93450a4746d1bf94bff601cf447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e759d690ad1d0903f14004ca4d165500') in 0.042740 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
