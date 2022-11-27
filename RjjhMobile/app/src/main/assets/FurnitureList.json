@@ -1,18 +1,165 @@
 {
   "furniture": [
     {
-      "name": "cube",
-      "id": "1",
-      "width": "2",
+      "name": "1.宝箱",
+      "id": "0",
+      "width": "1",
       "height": "1",
-      "img": "cube.png"
+      "img": "1.宝箱.png"
     },
     {
-      "name": "big cube",
+      "name": "2.椅子_1",
+      "id": "1",
+      "width": "1",
+      "height": "1",
+      "img": "2.椅子_1.png"
+    },
+    {
+      "name": "3.木桶_1",
       "id": "2",
-      "width": "4",
+      "width": "1",
+      "height": "1",
+      "img": "3.木桶_1.png"
+    },
+    {
+      "name": "4.木桶_2",
+      "id": "3",
+      "width": "1",
+      "height": "1",
+      "img": "4.木桶_2.png"
+    },
+    {
+      "name": "5.单人床",
+      "id": "4",
+      "width": "2",
       "height": "2",
-      "img": "cube2.png"
+      "img": "5.单人床.png"
+    },
+    {
+      "name": "6.双人床",
+      "id": "5",
+      "width": "2",
+      "height": "2",
+      "img": "6.双人床.png"
+    },
+    {
+      "name": "7.长椅",
+      "id": "6",
+      "width": "2",
+      "height": "1",
+      "img": "7.长椅.png"
+    },
+    {
+      "name": "8.长凳",
+      "id": "7",
+      "width": "2",
+      "height": "1",
+      "img": "8.长凳.png"
+    },
+    {
+      "name": "9.置物架_高",
+      "id": "8",
+      "width": "1",
+      "height": "1",
+      "img": "9.置物架_高.png"
+    },
+    {
+      "name": "10.置物架_低",
+      "id": "9",
+      "width": "1",
+      "height": "1",
+      "img": "10.置物架_低.png"
+    },
+    {
+      "name": "11.蜡烛架",
+      "id": "10",
+      "width": "1",
+      "height": "1",
+      "img": "11.蜡烛架.png"
+    },
+    {
+      "name": "12.方木凳",
+      "id": "11",
+      "width": "1",
+      "height": "1",
+      "img": "12.方木凳.png"
+    },
+    {
+      "name": "13.咖啡桌",
+      "id": "12",
+      "width": "3",
+      "height": "1",
+      "img": "13.咖啡桌.png"
+    },
+    {
+      "name": "14.储物柜",
+      "id": "13",
+      "width": "2",
+      "height": "1",
+      "img": "14.储物柜.png"
+    },
+    {
+      "name": "15.柜子",
+      "id": "14",
+      "width": "3",
+      "height": "1",
+      "img": "15.柜子.png"
+    },
+    {
+      "name": "16.书柜",
+      "id": "15",
+      "width": "1",
+      "height": "1",
+      "img": "16.书柜.png"
+    },
+    {
+      "name": "17.椅子_2",
+      "id": "16",
+      "width": "2",
+      "height": "1",
+      "img": "17.椅子_2.png"
+    },
+    {
+      "name": "18.矮柜",
+      "id": "17",
+      "width": "2",
+      "height": "1",
+      "img": "18.矮柜.png"
+    },
+    {
+      "name": "19.钢琴",
+      "id": "18",
+      "width": "1",
+      "height": "1",
+      "img": "19.钢琴.png"
+    },
+    {
+      "name": "20.讲台",
+      "id": "19",
+      "width": "1",
+      "height": "1",
+      "img": "20.讲台.png"
+    },
+    {
+      "name": "21.沙发",
+      "id": "20",
+      "width": "3",
+      "height": "1",
+      "img": "21.沙发.png"
+    },
+    {
+      "name": "22.木桌",
+      "id": "21",
+      "width": "2",
+      "height": "1",
+      "img": "22.木桌.png"
+    },
+    {
+      "name": "23.桌子",
+      "id": "22",
+      "width": "1",
+      "height": "1",
+      "img": "23.桌子.png"
     }
   ]
 }
