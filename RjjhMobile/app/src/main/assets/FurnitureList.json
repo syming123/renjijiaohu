@@ -87,35 +87,35 @@
     {
       "name": "13.咖啡桌",
       "id": "12",
-      "width": "3",
+      "width": "1",
       "height": "1",
       "img": "13.咖啡桌.png"
     },
     {
       "name": "14.储物柜",
       "id": "13",
-      "width": "2",
+      "width": "3",
       "height": "1",
       "img": "14.储物柜.png"
     },
     {
       "name": "15.柜子",
       "id": "14",
-      "width": "3",
+      "width": "2",
       "height": "1",
       "img": "15.柜子.png"
     },
     {
       "name": "16.书柜",
       "id": "15",
-      "width": "1",
+      "width": "3",
       "height": "1",
       "img": "16.书柜.png"
     },
     {
       "name": "17.椅子_2",
       "id": "16",
-      "width": "2",
+      "width": "1",
       "height": "1",
       "img": "17.椅子_2.png"
     },
@@ -129,7 +129,7 @@
     {
       "name": "19.钢琴",
       "id": "18",
-      "width": "1",
+      "width": "2",
       "height": "1",
       "img": "19.钢琴.png"
     },
@@ -157,7 +157,7 @@
     {
       "name": "23.桌子",
       "id": "22",
-      "width": "1",
+      "width": "2",
       "height": "1",
       "img": "23.桌子.png"
     }
