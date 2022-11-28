@@ -27,9 +27,9 @@ public class Furniture
 
 public class SocketConnect : MonoBehaviour
 {
-    string[] className = new string[] {"piano","Textile_chair"};
-    int[]furnitureWidth=new int[] {2,1};
-    int[]furnitureHeight=new int[] {1,1};
+    int[]furnitureWidth=new int[] {1,1,1,2,2,2,2,1,1,1,1,1,3,1,3,1,2,2,1,3,2,2,1};
+    int[]furnitureHeight=new int[] {1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+    int[] rotated = new int[] {2,0,0,3,3,1,0,0,0,0,0,0,1,1,1,2,1,2,1,2,1,0,0};
 
     static bool creat=false;
     static string data;
@@ -40,7 +40,7 @@ public class SocketConnect : MonoBehaviour
     float roomHeight;
     void Start()
     {
-        data = "{\"type\": \"room\",\"roomWidth\": 10,\"roomHeight\": 15,\"furniture\": [{\"id\": 1,\"classID\": 0,\"x\": 5,\"y\": 6,\"rotate\": 1},{\"id\": 2,\"classID\": 1,\"x\": 1,\"y\": 1,\"rotate\": 1}]}";
+        data = "{\"type\": \"room\",\"roomWidth\": 10,\"roomHeight\": 15,\"furniture\": [{\"id\": 1,\"classID\": 0,\"x\": 0,\"y\": 0,\"rotate\": 1},{\"id\": 2,\"classID\": 1,\"x\": 1,\"y\": 1,\"rotate\": 1}]}";
         creat = true;
         Thread thread1 = new Thread(new ThreadStart(Thread1));
         //thread1.Start();
@@ -54,7 +54,6 @@ public class SocketConnect : MonoBehaviour
             if (data.IndexOf("room") != -1)
             {
                 Room room1 = JsonConvert.DeserializeObject<Room>(data);
-                
                 GameObject go;
                 GameObject gameObject1;
                 Furniture[] tfurniture = room1.furniture;
@@ -64,19 +63,25 @@ public class SocketConnect : MonoBehaviour
                     roomHeight = room1.roomHeight;
                     go = GameObject.Find("Ground");
                     go.transform.localScale = new Vector3((float)(roomWidth / 5+0.2), 1, (float)(roomHeight / 5+0.2));
+
                     go = GameObject.Find("wall0");
                     go.transform.localScale = new Vector3(roomWidth , 10, 1);
                     go.transform.position=new Vector3(roomWidth / 2, 5 , (float)0.5);
+
                     go = GameObject.Find("wall1");
                     go.transform.localScale = new Vector3(roomHeight, 10, 1);
                     go.transform.position = new Vector3((float)(roomWidth+0.5),5, -(roomHeight / 2));
+
                     go = GameObject.Find("wall2");
                     go.transform.localScale = new Vector3(roomWidth, 10, 1);
                     go.transform.position = new Vector3(roomWidth / 2, 5, -(float)(roomHeight+0.5));
+
                     go = GameObject.Find("wall3");
                     go.transform.localScale = new Vector3(roomHeight, 10, 1);
                     go.transform.position = new Vector3((float)-0.5, 5, -(roomHeight / 2));
 
+                    go = GameObject.Find("PointLight");
+                    go.transform.position=new Vector3(roomWidth / 2, 5, -(roomHeight / 2));
                 }
                 //Ìí¼Ó¼Ò¾ß
                 if (furniture==null|| furniture.Length < tfurniture.Length)
@@ -100,11 +105,11 @@ public class SocketConnect : MonoBehaviour
                             x = tfurniture[i].x + (float)(furnitureWidth[classID]/2);
                             y = -(tfurniture[i].y+ (float)(furnitureHeight[classID] / 2));
                         }
-                        go = Resources.Load<GameObject>(className[classID]);
+                        go = Resources.Load<GameObject>(""+classID);
                         gameObject1 = Instantiate(go);
                         gameObject1.name = "" + i;
                         gameObject1.transform.position=new Vector3(x,0,y);  
-                        gameObject1.transform.localEulerAngles = new Vector3(0,90*rotate,0);
+                        gameObject1.transform.localEulerAngles = new Vector3(0, 90 * (rotate + rotated[classID]),0);
                     }
                     furniture = tfurniture;
                 }
@@ -113,14 +118,29 @@ public class SocketConnect : MonoBehaviour
                 {
                     for(int i = 0; i < furniture.Length; i++)
                     {
-                        int x = tfurniture[i].x;
-                        int y = tfurniture[i].y;
+                        
+                        int classID = tfurniture[i].classID;
                         int rotate = tfurniture[i].rotate;
+                        float x=tfurniture[i].x;
+                        float y = tfurniture[i].y;
                         if (furniture[i].x != x|| furniture[i].y != y)
                         {
+                            if (rotate == 1 || rotate == 3)
+                            {
+                                x = tfurniture[i].x + ((float)furnitureHeight[classID] / 2);
+                                y = -(tfurniture[i].y + ((float)furnitureWidth[classID] / 2));
+                            }
+                            else if (rotate == 2 || rotate == 0)
+                            {
+                                x = tfurniture[i].x + (float)(furnitureWidth[classID] / 2);
+                                y = -(tfurniture[i].y + (float)(furnitureHeight[classID] / 2));
+                            }
                             GameObject gameObject = GameObject.Find(""+i);
                             gameObject.transform.position = new Vector3(x, 0, y);
-                            gameObject.transform.localEulerAngles = new Vector3(0, 90 * rotate, 0);
+                        }else if (furniture[i].rotate!=rotate)
+                        {
+                            GameObject gameObject = GameObject.Find("" + i);
+                            gameObject.transform.localEulerAngles = new Vector3(0, 90 * (rotate + rotated[classID]), 0);
                         }
                     }
                     furniture = tfurniture;
