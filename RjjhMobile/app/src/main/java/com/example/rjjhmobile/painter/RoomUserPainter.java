@@ -17,6 +17,7 @@ public class RoomUserPainter {
     private int width;
     private int height;
     private int dis;
+    private double scale = 2.0;
     public RoomUserPainter(int x, int y, int screenHeight,ImageView imageView){
         this.imageView = imageView;
         dis = screenHeight / (Math.max(x,y) + 2);
@@ -33,8 +34,12 @@ public class RoomUserPainter {
     public void printUser(double x, double y, double rotate, Bitmap bmp){
         clean();
 
-        int centerX = (int)(x * width + dis);
-        int centerY = (int)(y * height + dis);
+//        int centerX = (int)(x * width + dis);
+//        int centerY = (int)(y * height + dis);
+        x = x * scale;
+        y = y * scale;
+        int centerX = (int)((x + 1) * dis + width / 2);
+        int centerY = (int)((y + 1) * dis);
 
         Bitmap bm = BitmapUtil.rotateBitmap(bmp,(float)rotate);
 

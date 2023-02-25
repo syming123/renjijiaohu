@@ -180,7 +180,15 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+    <Compile Include="Assets\Script\GameData.cs" />
+    <Compile Include="Assets\Script\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Script\Rotation.cs" />
+    <Compile Include="Assets\Script\Server.cs" />
     <Compile Include="Assets\Script\SocketConnect.cs" />
+    <Compile Include="Assets\Script\TCPClient.cs" />
+    <Compile Include="Assets\Script\ToVRMode.cs" />
+    <Compile Include="Assets\Script\VRMode.cs" />
+    <Compile Include="Assets\Script\change.cs" />
     <Compile Include="Assets\Script\showIP.cs" />
     <Compile Include="Assets\UnityPackages\JsonNetSample\JsonNetSample.cs" />
   </ItemGroup>

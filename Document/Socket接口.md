@@ -7,7 +7,7 @@ roomWidth和roomHeight表示房间的宽和高
 
 furniture数组中每个对象代表一个家具：
 
-id指这个家具的唯一id，classID表示这个家具类的id，对应家具的具体信息见FurnitureClass文档
+id指这个家具的唯一id，classID表示这个家具类的id
 
 x和y表示这个家具左上角的坐标，rotate表示方向，如下
 
@@ -55,12 +55,9 @@ x和y表示这个家具左上角的坐标，rotate表示方向，如下
 
 ```json
 {
-    "x": 0.4569,
-    "y": 0.8431,
+    "x": 1.12,
+    "y": 0.46,
     "rotate": 75.6
 }
 ```
 
-解释：
-
-![location](image\location.png)

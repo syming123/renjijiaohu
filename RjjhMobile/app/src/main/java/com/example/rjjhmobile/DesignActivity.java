@@ -127,6 +127,14 @@ public class DesignActivity extends AppCompatActivity {
             }
         };
 
+        Runnable initRunnable = new Runnable() {
+            @Override
+            public void run() {
+                socketConnect.send(roomDesigner.toJSONMap().toString());
+            }
+        };
+        Thread initThread = new Thread(initRunnable);
+        initThread.start();
 
         Runnable runnable = new Runnable() {
             @Override
@@ -136,6 +144,7 @@ public class DesignActivity extends AppCompatActivity {
                     sendJSON.put("type","location");
                     while (true){
                         String res = connect.send(sendJSON.toString());
+                        //System.out.println(res);//****
                         Message msg = new Message();
                         Bundle bundle1 = new Bundle();
                         bundle1.putString("json",res);

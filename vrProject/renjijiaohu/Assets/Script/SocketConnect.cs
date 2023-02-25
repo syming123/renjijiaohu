@@ -25,6 +25,11 @@ public class Furniture
     public int rotate;
 }
 
+public class Location{
+    public float x;
+    public float y;
+    public float rotate;
+}
 public class SocketConnect : MonoBehaviour
 {
     int[]furnitureWidth=new int[] {1,1,1,1,2,2,2,2,1,1,1,1,1,3,2,3,1,2,2,1,3,2,2};
@@ -38,6 +43,13 @@ public class SocketConnect : MonoBehaviour
     Furniture[] furniture=null;
     float roomWidth;
     float roomHeight;
+
+    
+    public static float roomWidth1;
+    public static float roomHeight1;
+    
+    static Location location;
+    static bool flag = false;
     void Start()
     {
         Thread thread1 = new Thread(new ThreadStart(Thread1));
@@ -59,6 +71,13 @@ public class SocketConnect : MonoBehaviour
                 {
                     roomWidth = room1.roomWidth;
                     roomHeight = room1.roomHeight;
+
+                    roomWidth1 = room1.roomWidth;
+                    roomHeight1 = room1.roomHeight;
+                    
+                    print(roomWidth);
+                    print(roomHeight);
+                    
                     go = GameObject.Find("Ground");
                     go.transform.localScale = new Vector3((float)(roomWidth / 5+0.2), 1, (float)(roomHeight / 5+0.2));
 
@@ -179,7 +198,22 @@ public class SocketConnect : MonoBehaviour
                 }
                 furniture = tfurniture;
             }
+            else if (data.IndexOf("location") != -1)
+            {
+                flag = true;
+                float x = TCPClient.array[0];
+                float y = TCPClient.array[2];
+                location = new Location()
+                {
+                    x = x,
+                    y = y,
+                    rotate =TCPClient.array[3]
+                };
+                
+                
+            }
             newMessage = false;
+            
         }
     }
     void OnDestroy()
@@ -210,8 +244,23 @@ public class SocketConnect : MonoBehaviour
             string tdata = Encoding.UTF8.GetString(receive);
             newMessage = true;
             data = tdata;
-            byte[] send = Encoding.ASCII.GetBytes("Success receive the message,send the back the message\n");
-            socket.Send(send, 0);
+            if (!flag)
+            {
+                byte[] send = Encoding.ASCII.GetBytes("Success receive the message,send the back the message\n");
+                socket.Send(send, 0);
+            }
+            else
+            {
+                string jsonLocation = JsonConvert.SerializeObject(location);
+                byte[] send = Encoding.ASCII.GetBytes(jsonLocation+"\n");
+                string message = Encoding.UTF8.GetString(send, 0, send.Length);
+
+                /*print(message);*/
+                
+                socket.Send(send, 0);
+                flag = false;
+            }
+            
         }
     }
 }
